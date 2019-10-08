@@ -10,5 +10,7 @@ def run_guessing_game
     puts "Goodbye!"
     elsif user_num > 6 and user_num < 1 
     puts "Please guess a number between 1-6"
+  else 
+    "What have you done."
   end
 end
