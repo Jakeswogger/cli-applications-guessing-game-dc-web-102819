@@ -11,7 +11,4 @@ def run_guessing_game
    if user_num != random_num
      puts "Sorry! The computer guessed #{random_num}."
    end
-   if user_num > 6 and user_num < 1 
-     puts "Please guess a number between 1-6"
-   end
 end
